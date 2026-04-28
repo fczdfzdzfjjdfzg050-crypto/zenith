@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZENITH | Official Performance & Cheats</title>
+    <style>
+        :root {
+            --bg: #0b0b0d;
+            --card-bg: #16161a;
+            --neon-blue: #00d4ff;
+            --neon-purple: #9b59b6;
+            --text: #ffffff;
+            --text-dim: #a0a0a0;
+        }
+
+        body {
+            background-color: var(--bg);
+            color: var(--text);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        header {
+            padding: 40px 20px;
+            text-align: center;
+            background: linear-gradient(to bottom, #111, var(--bg));
+        }
+
+        .logo {
+            font-size: 3rem;
+            font-weight: 900;
+            letter-spacing: 5px;
+            text-transform: uppercase;
+        }
+
+        .logo span { color: var(--neon-purple); }
+        .logo { color: var(--neon-blue); }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .instruction-box {
+            background: rgba(0, 212, 255, 0.1);
+            border: 1px solid var(--neon-blue);
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            border: 1px solid #333;
+            border-radius: 15px;
+            padding: 20px;
+            transition: 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            text-align: center;
+        }
+
+        .card:hover {
+            border-color: var(--neon-purple);
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+        }
+
+        .card h3 {
+            margin-top: 0;
+            font-size: 1.5rem;
+            color: var(--neon-blue);
+        }
+
+        .card p {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 20px;
+        }
+
+        .status {
+            font-weight: bold;
+            color: #2ecc71;
+            margin-bottom: 15px;
+            display: block;
+        }
+
+        .price-tag {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        /* PayPal Buttons Styling */
+        paypal-cart-button {
+            margin-top: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 50px 20px;
+            background-color: #050505;
+            margin-top: 50px;
+        }
+
+        .discord-btn {
+            background-color: #5865F2;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 20px;
+        }
+
+        .discord-btn:hover { background-color: #4752c4; }
+
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo">ZEN<span>ITH</span></div>
+    <p>Premium Game Enhancements & Optimization</p>
+</header>
+
+<div class="container">
+    
+    <div class="instruction-box">
+        <h2>🛒 HOW TO BUY & REDEEM</h2>
+        <p>1. Add your desired packs to the cart and checkout via PayPal.</p>
+        <p>2. <b>Save a screenshot of your payment confirmation!</b></p>
+        <p>3. Join our Discord and open a Ticket or add <b>bananause23</b>.</p>
+        <p>4. Send your proof and receive your products instantly!</p>
+        <a href="https://discord.gg/4CsEdgzqh" class="discord-btn">JOIN DISCORD NOW</a>
+    </div>
+
+    <div style="text-align: right; margin-bottom: 20px;">
+        <paypal-cart-button data-id="pp-view-cart"></paypal-cart-button>
+    </div>
+
+    <div class="grid">
+        
+        <div class="card">
+            <h3>🎯 Fortnite AI Assistant</h3>
+            <span class="status">STATUS: UNDETECTED ✅</span>
+            <p>External AI Aimbot, No-Recoil & ESP. Safe for main accounts. Pixel-based detection.</p>
+            <div class="paypal-container" id="fortnite-btn"></div>
+        </div>
+
+        <div class="card">
+            <h3>📕 CS2 Internal Elite</h3>
+            <span class="status">STATUS: UNDETECTED ✅</span>
+            <p>Legit/Rage Bot, Visuals (Chams/ESP), Skin Changer & Movement Hacks.</p>
+            <div class="paypal-container" id="cs2-btn"></div>
+        </div>
+
+        <div class="card">
+            <h3>📙 Roblox Multi-Tool</h3>
+            <span class="status">STATUS: UNDETECTED ✅</span>
+            <p>Speed, Fly, Auto-Farm & Universal Script Executor for any Roblox game.</p>
+            <div class="paypal-container" id="roblox-btn"></div>
+        </div>
+
+        <div class="card">
+            <h3>🎯 Precision Aim Tweaks</h3>
+            <span class="status">STATUS: PERMANENT ✅</span>
+            <p>Advanced mouse & controller registry optimizations for perfect tracking.</p>
+            <div class="paypal-container" id="aim-btn"></div>
+        </div>
+
+        <div class="card">
+            <h3>💎 Zero Delay Pack</h3>
+            <span class="status">STATUS: PERMANENT ✅</span>
+            <p>Strip Windows & USB latency. Get the fastest response time possible.</p>
+            <div class="paypal-container" id="delay-btn"></div>
+        </div>
+
+        <div class="card">
+            <h3>⚡ Overdrive FPS Boost</h3>
+            <span class="status">STATUS: PERMANENT ✅</span>
+            <p>Maximum frame stability. Clean your system and unlock hidden performance.</p>
+            <div class="paypal-container" id="fps-btn"></div>
+        </div>
+
+        <div class="card">
+            <h3>🌐 Ghost Ping Reducer</h3>
+            <span class="status">STATUS: PERMANENT ✅</span>
+            <p>Optimized network routing to lower your ping and prevent packet loss.</p>
+            <div class="paypal-container" id="ping-btn"></div>
+        </div>
+
+        <div class="card">
+            <h3>🪟 Windows Ultimate Tune</h3>
+            <span class="status">STATUS: PERMANENT ✅</span>
+            <p>Full system deep-clean and professional registry tuning.</p>
+            <div class="paypal-container" id="windows-btn"></div>
+        </div>
+
+        <div class="card">
+            <h3>🤖 Macro Suite</h3>
+            <span class="status">STATUS: UNDETECTED ✅</span>
+            <p>Instant Edits, Auto-Builds & Reset scripts for high-speed gameplay.</p>
+            <div class="paypal-container" id="macro-btn"></div>
+        </div>
+
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2026 ZENITH. All rights reserved.</p>
+    <p>Contact: bananause23 on Discord</p>
+</footer>
+
+<script src="https://www.paypalobjects.com/ncp/cart/cart.js" data-merchant-id="AHDKC3EHD6K2Y"></script>
+
+<script>
+    // Initialize the View Cart Button
+    cartPaypal.Cart({ id: "pp-view-cart" });
+
+    // Note: Since you provided the same cart script for each, 
+    // I recommend ensuring your PayPal Dashboard has specific 'Add to Cart' 
+    // buttons for each product ID to make the cart work correctly.
+</script>
+
+</body>
+</html>
